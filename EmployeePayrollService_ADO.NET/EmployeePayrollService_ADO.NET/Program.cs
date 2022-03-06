@@ -11,7 +11,8 @@ namespace EmployeePayrollService_ADO.NET
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Employee Payroll Service using ADO.NET");
-            Console.ReadLine();
+            //UC-1
+            EmployeeRepo.GetAllEmployees();
         }
     }
 }
